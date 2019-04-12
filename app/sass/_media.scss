@@ -1,0 +1,213 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+  
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.page-header {
+		.header-composition {
+			.h1 {
+				font-size: 64px;
+			}
+		}
+
+		.header-contacts {
+			font-size: $small-font-size;
+		}
+	}
+
+	.s-king, .s-partners, .s-review {
+		padding: 7% 0;		
+	}
+
+	.s-call {
+		background-size: cover;
+		background-position: center;
+	}
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.page-header {
+		.header-composition {
+			.h1 {
+				font-size: 49px;
+			}
+			.address {
+				margin-top: 10px;
+			}
+			.welcome-text {
+				margin-top: 10px;
+			}
+			.button {
+				margin-top: 5px;
+				padding: 13px 35px;
+			}
+		}
+	}
+
+	.carousel-services {
+		&-item {
+			flex-direction: column;
+		}
+	} 
+	.footer-addr{
+		.footer-phone{
+			font-size: 20px;
+			padding-top: 0;
+			.fa{
+				top: 9px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+	
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.page-header {
+		.header-composition {
+			.h1 {
+				font-size: 44px;
+			}
+		}
+		.header-contacts {
+			.phone-h { 
+				text-align: left;
+			}
+		}
+	}
+
+	.button{
+		padding: 12px 40px;
+	}
+
+	.s-call {
+		&:before {
+			left: 0;
+		}
+
+		.callback {
+			padding: 12% 0;
+		}
+	}
+
+	.s-review {
+		.quotes {
+			display: none;
+		}
+	}
+
+	.s-partners {
+		.partners-carousel {
+			.owl-prev {
+				left: 0;
+			}
+			.owl-next {
+				right: 0;
+			}
+		}
+	}
+
+	.footer {
+		padding: 30px 0;
+
+		.logo img {
+			width: 180px;
+		}
+
+		&-social {
+			margin-top: 0;
+		}
+
+		&-column &-phone {
+			margin-top: 0;
+		}
+	}
+	.social-footer{
+		margin-top: 0;
+		.soc li a{
+			margin-top: 0;
+		}
+	}
+	.footer-menu{
+		padding-left: 22px;
+	}
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.welcome{
+		.h1{
+			font-size: 26px;
+			margin-top: 5px;
+		}
+		p{
+			span{
+				font-size: 9px;
+			}
+		}
+		strong{
+			margin-top: 14px;
+			font-size: 14px;
+		}
+	}
+}
+.header-composition{
+	p{
+		font-size: 14px;
+	}
+}
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+	/**/
+
